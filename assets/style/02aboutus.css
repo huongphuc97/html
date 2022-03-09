@@ -46,21 +46,21 @@ body{
     width: 100%;
 }
 .top .item .li1{
-    background-image: url(../Images/egypt.png);
+    background-image: url(../images/egypt.png);
     background-repeat: no-repeat;
     background-position:2% center;
     background-size:20px;
     padding-left: 20px;
 }
 .top .item .li2{
-    background-image: url(../Images/kuwait.png);
+    background-image: url(../images/kuwait.png);
     background-repeat: no-repeat;
     background-position:2% center;
     background-size:20px;
     padding-left: 20px;
 }
 .top .item .li3{
-    background-image: url(../Images/uae.png);
+    background-image: url(../images/uae.png);
     background-repeat: no-repeat;
     background-position:2% center;
     background-size:20px;
@@ -77,7 +77,7 @@ body{
 .top-banner .logo{
     width:15% ;
     float: left;
-    background-image:url(../Images/logo1.png);
+    background-image:url(../images/logo1.png);
     height: 70px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -417,15 +417,15 @@ body{
     padding:0 25px 50px 25px;
 }
 .footer-banner .icon .img-1{
-    background-image: url(../Images/footer-icon1.png);
+    background-image: url(../images/footer-icon1.png);
     background-repeat: no-repeat;
 }
 .footer-banner .icon .img-2{
-    background-image: url(../Images/footer-icon2.png);
+    background-image: url(../images/footer-icon2.png);
     background-repeat: no-repeat;
 }
 .footer-banner .icon .img-3{
-    background-image: url(../Images/footer-icon3.png);
+    background-image: url(../images/footer-icon3.png);
     background-repeat: no-repeat;
 }
 

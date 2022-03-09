@@ -50,21 +50,21 @@
         width: 100%;
     }
     .top .it .li1{
-        background-image: url(../Images/egypt.png);
+        background-image: url(../images/egypt.png);
         background-repeat: no-repeat;
         background-position:2% center;
         background-size:20px;
         padding-left: 20px;
     }
     .top .it .li2{
-        background-image: url(../Images/kuwait.png);
+        background-image: url(../images/kuwait.png);
         background-repeat: no-repeat;
         background-position:2% center;
         background-size:20px;
         padding-left: 20px;
     }
     .top .it .li3{
-        background-image: url(../Images/uae.png);
+        background-image: url(../images/uae.png);
         background-repeat: no-repeat;
         background-position:2% center;
         background-size:20px;
@@ -81,7 +81,7 @@
     .top-banner .logo{
         width:15% ;
         float: left;
-        background-image:url(../Images/logo1.png);
+        background-image:url(../images/logo1.png);
         height: 70px;
         background-repeat: no-repeat;
         background-position: left center;
@@ -221,7 +221,7 @@
         background-color:#ff9d33;
         padding: 7px 0;
         padding-left: 25px;
-        background-image: url(../Images/hotel-icon.png);
+        background-image: url(../images/hotel-icon.png);
         background-repeat: no-repeat;
         background-position: 10% center;
     }
@@ -275,7 +275,7 @@
         padding:70px 0;
         float: left;
         width: 100%;
-        background-image: url(../Images/bar-01.png);
+        background-image: url(../images/bar-01.png);
         background-repeat:no-repeat;
         background-position:22% 45%;
     }
@@ -283,12 +283,12 @@
         float: left;
         width: 75%;
         padding-left: 100px;
-        background-image: url(../Images/point-b01.png);
+        background-image: url(../images/point-b01.png);
         background-repeat: no-repeat;
         background-position:39% center;
     }
     .budget .left p{
-        background-image: url(../Images/point-b01.png);
+        background-image: url(..iImages/point-b01.png);
         background-repeat: no-repeat;
         background-position:17% center;
     }
@@ -411,7 +411,7 @@
     .plan .circle{
         padding-left: 20px;
         padding-top: 180px;
-        background-image: url(../Images/circle-b01.png); 
+        background-image: url(../images/circle-b01.png); 
         background-repeat: no-repeat;
         height:400px;
         background-position:bottom center;
@@ -713,7 +713,7 @@
     .base-form .form .phone .left{
         width: 50%;
         float: left;
-        background-image: url(../Images/telephone-b01.png);
+        background-image: url(../images/telephone-b01.png);
         background-repeat: no-repeat;
         background-position:left center;
         background-size:35px;
@@ -721,7 +721,7 @@
     .base-form .form .phone .right{
         width: 50%;
         float: left;
-        background-image: url(../Images/paper-plane-b01.png);
+        background-image: url(../images/paper-plane-b01.png);
         background-repeat: no-repeat;
         background-position:left center;
         background-size:35px;
@@ -870,21 +870,21 @@
         padding:0 25px 50px 25px;
     }
     .footer-banner .icon .img-1{
-        background-image: url(../Images/footer-icon1.png);
+        background-image: url(../images/footer-icon1.png);
         background-repeat: no-repeat;
     }
     .footer-banner .icon .img-1:hover{
         opacity: 0.8;
     }
     .footer-banner .icon .img-2{
-        background-image: url(../Images/footer-icon2.png);
+        background-image: url(../images/footer-icon2.png);
         background-repeat: no-repeat;
     }
     .footer-banner .icon .img-2:hover{
         opacity: 0.8;
     }
     .footer-banner .icon .img-3{
-        background-image: url(../Images/footer-icon3.png);
+        background-image: url(../images/footer-icon3.png);
         background-repeat: no-repeat;
     }
     .footer-banner .icon .img-3:hover{
