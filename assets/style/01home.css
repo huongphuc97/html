@@ -1,0 +1,896 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size:smaller;
+    }
+    .center{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .top{
+        background-color:#131313;
+    
+    }
+    .top .it ul li{
+        display: inline-block;
+        font-size:10px;
+        position: relative;
+    }
+    .top .it ul li a{
+        display:inline-block;
+        text-decoration: none;
+        color:#fff;
+        padding:10px;
+    
+    }
+    .top .it ul li a:hover{
+        color:blue;
+    }
+    .top .it ul li ul{
+        position: absolute;
+        background-color:#014073;
+        top:100%;
+        z-index: 8;
+        width: 90px;
+        padding:5px 10px;
+        display: none;
+    }
+    .top .it ul li:hover ul{
+        display: block;
+    }
+    .top .it ul li ul li:hover a{
+        color:blue;
+    }
+    .top .it ul li ul li{
+        width: 100%;
+    }
+    .top .it .li1{
+        background-image: url(../Images/egypt.png);
+        background-repeat: no-repeat;
+        background-position:2% center;
+        background-size:20px;
+        padding-left: 20px;
+    }
+    .top .it .li2{
+        background-image: url(../Images/kuwait.png);
+        background-repeat: no-repeat;
+        background-position:2% center;
+        background-size:20px;
+        padding-left: 20px;
+    }
+    .top .it .li3{
+        background-image: url(../Images/uae.png);
+        background-repeat: no-repeat;
+        background-position:2% center;
+        background-size:20px;
+        padding-left: 20px;
+    }
+    .top .it i.ic{
+        padding-right: 5px;
+    }
+    .top-banner{
+        background-color: #014073;
+        width: 100%;
+        float: left;
+    }
+    .top-banner .logo{
+        width:15% ;
+        float: left;
+        background-image:url(../Images/logo1.png);
+        height: 70px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        position: relative;
+        background-color: #014073;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+    .top-banner .nav-bar{
+        width:65%;
+        float: left;
+        height:80px;
+        background-color: #014073;
+        position: relative;
+    }
+    .top-banner .nav-bar ul li{
+        display: inline-block;
+        position: relative;
+        
+    }
+    .top-banner .nav-bar ul li:hover .a1{
+        color:blue;
+    }
+    .top-banner .nav-bar ul li a{
+        display: inline-block;
+        padding:30px 25px;
+        color:#fff;
+        text-decoration: none;
+    }
+    .top-banner .nav-bar ul li i.ic{
+        padding-left: 4px;
+    }
+    .top-banner .detail{
+        width:20% ;
+        float: left;
+        height: 80px;
+        position: relative;
+    }
+    .top-banner .detail::after{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 80px solid #ff9d33;
+        border-left: 80px solid transparent;
+        display: inline-block;
+        margin-left: -80px;
+        width: 399px;
+        z-index: 0;
+    }
+    .top-banner ul li ul{
+        position: absolute;
+        background-color:#014073;
+        top:100%;
+        z-index:3;
+        width: 130px;
+        display: none;
+    }
+
+    .top-banner ul li:hover ul{
+        display: block;
+    }
+    .top-banner ul li ul li:hover a{
+        color:blue;
+    }
+    .top-banner .detail img{
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: -15%;
+        transform: translate(-50%,-50%);
+        padding:20px 0;
+
+    }
+    .top-banner .detail .it{
+        z-index: 1;
+        padding:15px 0;
+        position: absolute;
+    }
+    .welcome{
+        background-color:#124e82;
+        overflow: hidden;
+        position: relative;
+        height:500px;
+        padding: 60px 0;
+        width: 100%;
+        float: left;
+        background-image: url(https://robbreport.com/wp-content/uploads/2019/09/sabre-plane.jpg?w=1000);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .welcome .text{
+        padding: 20px 0;
+        width: 45%;
+        float: left;
+    }
+    .welcome .text button{
+        border:none;
+        background-color: #ff9d33;
+        padding:10px 20px;
+        color:#fff;
+        cursor: pointer;
+        border-radius: 5px; 
+    }
+    .welcome .text img{
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translate(-80%,-60%);
+
+    }
+    .welcome .img{
+        float: right;
+        padding-top: 100px;
+    }
+    .search-tour{
+        overflow: hidden;
+        margin-top:-65px;
+        position: relative;
+        background-color:#fdfdfd;
+        z-index: 2;
+        width: 100%;
+        float: left;
+    }
+    .search-tour .title ul li{
+        display: inline-block;
+    }
+    .search-tour .title ul li a{
+        display: inline-block;
+        padding: 5px 20px 0 20px;
+        text-decoration: none;
+
+    }
+    .search-tour .title .active{
+        background-color:#ff9d33;
+        padding: 7px 0;
+        padding-left: 25px;
+        background-image: url(../Images/hotel-icon.png);
+        background-repeat: no-repeat;
+        background-position: 10% center;
+    }
+    .search-tour .search-box{
+        padding-left: 120px;
+        padding-top: 50px;
+        color:#42658a;
+    }
+    .search-tour .search-box .box{
+        float: left;
+        width: 20%;
+        border: 1px solid #c2c2c2;
+        padding:10px 0;
+        margin: 0 10px;
+    }
+    .box ul li{
+        position: relative;
+        display: inline-block;
+    }
+    .box ul li a{
+        display: inline-block;
+        text-decoration: none;
+        width: 200px;
+    }
+    .box ul li .drop-box{
+        position: absolute;
+        top:160%;
+        width:108%;
+        background-color:lightgrey; 
+        display: none;
+    }
+    .box ul li .drop-box .check{
+        width: 100%;
+        padding:10px;
+    }
+    .box ul li .drop-box li:hover a{
+        color:blue;
+    }
+    .box ul li .drop-box li{
+        width: 100%;
+        padding:10px 15px 10px 25px;
+    }
+    .search-tour .search-box .box i.ic-1{
+        padding-right: 5px;
+        
+    }
+    .search-tour .search-box .box i.ic-2{
+        float: right;
+    }
+    .budget{
+        padding:70px 0;
+        float: left;
+        width: 100%;
+        background-image: url(../Images/bar-01.png);
+        background-repeat:no-repeat;
+        background-position:22% 45%;
+    }
+    .budget .left{
+        float: left;
+        width: 75%;
+        padding-left: 100px;
+        background-image: url(../Images/point-b01.png);
+        background-repeat: no-repeat;
+        background-position:39% center;
+    }
+    .budget .left p{
+        background-image: url(../Images/point-b01.png);
+        background-repeat: no-repeat;
+        background-position:17% center;
+    }
+    .budget .right{
+        float:left;
+        width:15%;
+    }
+    .budget .right button{
+        padding:10px 30px;
+        border: none;
+        background-color: #ff9d33;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .amazing-place{
+        margin-top:-180px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        float: left;
+
+    }
+    .amazing-place .it .left{
+        float: left;
+        width: 50%;
+    }
+    .amazing-place .it .left button{
+        padding:15px 20px;
+        background-color: #ff9d33;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .amazing-place .it .right{
+        float: left;
+        width: 45%;
+        height:300px;
+        position: relative;
+    }
+    .amazing-place .it .right .content{
+        height:100%;
+        background-color:#dddddd;
+    }
+    .amazing-place .it .right .content img:hover{
+        opacity: 0.8;   
+    }
+    .amazing-place .prod{
+        position: relative;
+    }
+    .owl-nav{
+        position: absolute;
+        top: 30%;
+        left:0;
+        width: 100%;
+        transform: translateY(-30%);
+        font-size:60px;
+        color:#fff;
+    }
+    .owl-prev{
+        float: left;
+    }
+    .owl-next{
+        float: right;
+    }
+    .amazing-place .it .right .content .base-1{
+        position: absolute;
+        top: 99.5%;
+        left:90.5%;
+        transform: translate(-99.5%,-90.5%);
+        cursor: pointer;
+        
+    }
+    .amazing-place .it .right .content .base-1 .arrow-1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .amazing-place .it .right .content .base-2{
+        position: absolute;
+        top: 101%;
+        left: 100%;
+        transform: translate(-101%,-100%);
+        cursor: pointer;
+    }
+    .amazing-place .it .right .content .base-2 .arrow-2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .plan{
+        float: left;
+        width: 100%;
+        margin-top:80px;
+        overflow: hidden;
+        background-color:#f3fbfe;
+        position: relative;
+    }
+    .plan .left{
+        width: 50%;
+        float: left;
+        padding-top: 100px;
+        position:absolute;
+        top:40%;
+        left:30%;
+        transform: translate(-40%,-30%);
+    }
+    .plan .mid{
+        width: 40%;
+        float: left;
+        padding-top: 30px;
+        position:absolute;
+        top:60%;
+        left:63%;
+        transform: translate(-60%,-63%);
+    }
+    .plan .circle{
+        padding-left: 20px;
+        padding-top: 180px;
+        background-image: url(../Images/circle-b01.png); 
+        background-repeat: no-repeat;
+        height:400px;
+        background-position:bottom center;
+        background-size: 60%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .plan .circle .it{
+        float: left;
+        width: 20%;
+        
+    }
+    .plan .circle img:hover{
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .plan .circle .point-1{
+        position:absolute;
+        top: 91%;
+        left:70%;
+        transform: translate(-91%,-70%);
+    }
+    .plan .circle .point-2{
+        position:absolute;
+        top: 10%;
+        left:47%;
+        transform: translate(-10%,-47%);
+    }
+    .plan .circle .point-3{
+        position:absolute;
+        top: 86%;
+        left:33%;
+        transform: translate(-86%,-33%);
+    }
+    .travel-express{
+        width: 100%;
+        float: left;
+        margin: 120px 0;
+        overflow: hidden;
+    }
+    .travel-express .title{
+        text-align: center;
+    }
+    .travel-express .main-box{
+        padding-top: 60px;
+    }
+    .travel-express .main-box .item img{
+        width: 100%;
+        height: 300px;
+    }
+    .main-box .item img:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .travel-express .main-box .it{
+        background-color:#fdfdfd;
+        padding-top: 20px;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+
+    .travel-express .main-box .it h4{
+        width: 75%;
+        float: left;
+        color:#014073;
+        
+    }
+    .travel-express .main-box .it h5{
+        width: 25%;
+        float: left;
+        color:#ff9d33;
+    }
+    .travel-express .main-box .it .p1{
+        float: left;
+        width: 100%;
+        padding:10px 0;
+    }
+    .travel-express .main-box .it .btn{
+        width: 70%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    .travel-express .main-box .btn button{
+        padding:10px 20px;
+        border: none;
+        background-color:#ff9d33;
+        border-radius: 5px;
+        color:#fff;
+        cursor: pointer;
+    }
+    .travel-express .main-box .it .icon{
+        padding-top: 25px;
+        float: left;
+        width: 30%;
+        color:#ff9d33;
+        padding-bottom: 30px;
+    }
+    .travel-express .main-box .dot{
+        text-align: center;
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+    }
+    .promotion{
+        background-color:#014073;
+        float: left;
+        width: 100%;
+        padding: 90px 0;
+        background-image: url(https://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+    .promotion .offer{
+        text-align: center;
+        padding: 50px 0;
+        width: 600px;
+        border: 1px solid #fff;
+        margin: 0 auto;
+        position: relative;
+    }
+    .promotion .offer button{
+        background-color:#ff9d33;
+        color:#fff;
+        padding:10px 30px;
+        border-radius: 5px;
+        border:none;
+        position:absolute;
+        top: 100%;
+        left:60%;
+        transform: translate(-100%,-60%);
+        cursor: pointer;
+    }
+    .promotion .img1{
+        position:absolute;
+        top:0;
+        left:0;
+        transform: translateY(-45%);
+    }
+    .promotion .img2{
+        position:absolute;
+        top:0;
+        left:0;
+        transform: translate(-50%,-10%);
+        
+    }
+    .promotion .img3{
+        position:absolute;
+        top:104%;
+        left:101%;
+        transform: translate(-104%,-101%);
+    }
+    .promotion .img4{
+        position:absolute;
+        top:104%;
+        left:101%;
+        transform: translate(-104%,-101%);
+        
+    }
+    .travel-guide{
+        padding: 80px 0;
+        float: left;
+        width: 100%;
+    }
+    .travel-guide .title{
+        text-align: center;
+    }
+    .travel-guide .main-info{
+        padding-top: 40px;
+    }
+    .travel-guide .main-info .info{
+        float: left;
+        width: 25%;
+        padding:0 15px;
+        height:250px;
+        overflow: hidden;
+    }
+    .travel-guide .main-info img:hover{
+        opacity: 0.8;
+    }
+    .travel-guide .main-info .info img{
+        width: 100%;
+        height:100%;
+    }
+    .travel-guide .main-info .info .content{
+        width: 100%;
+        height:100%;
+        background-color:#dddddd;
+    }
+    .travel-guide .main-info .pl{
+        padding-left:0;
+    }
+    .travel-guide .main-info .pr{
+        padding-right:0;
+    }
+    .motion{
+        background-color:#014073;
+        float: left;
+        width: 100%;
+        padding: 100px 0 220px 0;
+        background-image: url(https://thumbs.dreamstime.com/b/clouds-blue-sky-light-31912398.jpg);
+        background-repeat: no-repeat;
+    }
+    .motion .title{
+        text-align: center;
+    }
+    .bottom-info{
+        float: left;
+        width: 100%;
+        padding: 50px 0;
+    }
+    .bottom-info .img img{
+        float: left;
+        width: 50%;
+        margin-top: -50px;
+        border-top: 12px solid #ff9d33;
+    }
+    .bottom-info .video{
+        width: 100%;
+        margin-top: -200px;
+    }
+    .bottom-info .video .content{
+        height:400px;
+        width: 100%;
+        background-color:#dddddd;
+        position: relative;
+    }
+    .bottom-info .video .content iframe{
+        position: absolute;
+    }
+    .bottom-info .video .content img{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .bottom-info .info{
+        padding-top:100px;  
+    }
+    .bottom-info .info .left{
+        width: 45%;
+        float: left;
+    }
+    .bottom-info .info .mid{
+        width: 50%;
+        float: left;
+        padding-left: 160px;
+        padding-top: 10px;
+        position: relative;
+        background-image: url(https://static.remove.bg/remove-bg-web/207b10c4ce48e7dca1441ee119b7f52754f487fd/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg);
+        background-repeat: no-repeat;
+        height:300px;
+    }
+    .bottom-info .info .mid:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+
+    .info .quote{
+        position: absolute;
+        top: 2%;
+        left: 37%;
+        transform: translate(-2%,-37%);
+    }
+    .bottom-info .info .right{
+        width: 1%;
+        float: left;
+        padding-top: 100px;
+    }
+    .base-form{
+        width: 100%;
+        float: left;
+        padding-top:50px;
+        position: relative;
+        margin-top: 40px;
+    }
+    .base-form .form{
+        background-color:#ff9d33;
+        height:480px;
+        width: 600px;
+        padding:20px;
+        position:absolute;
+        top: 51%;
+        left: 40%;
+        transform:translate(-51%,-40%);
+        color:#fff;
+        margin: 0 auto;
+    }
+
+    .base-form .form .phone{
+        padding:20px 0;
+        float: left;
+        width: 100%;
+    }
+    .base-form .form .phone .left{
+        width: 50%;
+        float: left;
+        background-image: url(../Images/telephone-b01.png);
+        background-repeat: no-repeat;
+        background-position:left center;
+        background-size:35px;
+    }
+    .base-form .form .phone .right{
+        width: 50%;
+        float: left;
+        background-image: url(../Images/paper-plane-b01.png);
+        background-repeat: no-repeat;
+        background-position:left center;
+        background-size:35px;
+    }
+    .base-form .form .phone .content p{
+        padding-top: 5px;
+    }
+    .base-form .form .phone .content{
+        padding-left: 60px;
+    }
+    .base-form .form .form-content{
+        width: 50%;
+        float: left;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+    .base-form .form .form-control{
+        padding: 10px 15px;
+        width: 100%;
+        outline: none;
+    }
+    .base-form .form .form-content .fill{
+        font-style: italic;
+        color:red;
+        font-size: 13px;
+        display: none;
+    }
+    .base-form .form .text-area{
+        width: 100%;
+        padding: 10px 15px;
+        outline:none;
+    }
+    .base-form .form .btn button{
+        background-color: #014073;
+        color:#fff;
+        padding:10px 35px;
+        border:none;
+        border-radius: 5px;
+    }
+    .footer-background{
+        background-color:#014073;
+        overflow: hidden;
+        float: left;
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+    }
+    .footer-background .logo-item{
+        width: 30%;
+        float: left;
+    }
+    .footer-background .link-item{
+        width: 40%;
+        float: left;
+    }
+    .footer-background .recent-item{
+        width:30% ;
+        float: left;
+    } 
+    .footer-background .input .form-control{
+        padding:20px 20px;
+        background-color: #014073;
+        border: 1px solid #fff;
+        width: 75%;
+        outline:none;
+        color:#fff;
+        float: left;
+    }
+    .footer-background .input i{
+        font-size: 40px;
+        padding: 8px 9px;
+        border: 1px solid lightgrey;
+        color:#fff;
+        background-color:#ff9d33;
+        position: absolute;
+        cursor: pointer;
+    }
+    .footer-background .link-item .link1{
+        width: 50%;
+        float: left;
+    }
+    .footer-background .link-item .link1 ul li{
+        display: block;
+    }
+    .footer-background .link-item .link1 ul li a{
+        display: block;
+        text-decoration: none;
+        color:#fff;
+        padding:15px;
+        font-size: 14px;
+    }
+    .footer-background .link-item .link1 ul li a:hover{
+        color:blue;
+    }
+    .footer-background .recent-item .bottom-item{
+        width: 100%;
+        padding-bottom: 25px;
+        float: left;
+    }
+    .footer-background .recent-item .bottom-item .img{
+        width: 40%;
+        float: left;
+        background-color:#dddddd;
+        height:100px;
+    }
+    .footer-background .recent-item .bottom-item .img img{
+        width: 100%;
+        height:100%;
+    }
+    .footer-background .recent-item .bottom-item .img img:hover{
+        opacity: 0.8;
+    }
+    .footer-background .recent-item .bottom-item .title{
+        width: 60%;
+        float: left;
+        padding-left: 20px;
+        color:#fff;
+        cursor: pointer;
+    }
+    .footer-background .recent-item .bottom-item .title:hover{
+        color:blue;
+    }
+    .footer-background .recent-item .bottom-item .title .date{
+        padding-top: 35px;
+        color:#ff9d33;
+    }
+    .footer-banner{
+        background-color:#013864;
+        overflow: hidden;
+        float: left;
+        width: 100%;
+    }
+    .footer-banner .content{
+        float: left;
+        width: 85%;
+        padding:30px 0;
+    }
+    .footer-banner .icon{
+        float: left;
+        width: 15%;
+        padding:25px 0 0 25px;
+    }
+    .footer-banner .icon .img{
+        float: left;
+        width: 5%;
+        padding:0 25px 50px 25px;
+    }
+    .footer-banner .icon .img-1{
+        background-image: url(../Images/footer-icon1.png);
+        background-repeat: no-repeat;
+    }
+    .footer-banner .icon .img-1:hover{
+        opacity: 0.8;
+    }
+    .footer-banner .icon .img-2{
+        background-image: url(../Images/footer-icon2.png);
+        background-repeat: no-repeat;
+    }
+    .footer-banner .icon .img-2:hover{
+        opacity: 0.8;
+    }
+    .footer-banner .icon .img-3{
+        background-image: url(../Images/footer-icon3.png);
+        background-repeat: no-repeat;
+    }
+    .footer-banner .icon .img-3:hover{
+        opacity: 0.8;   
+    }
+
+
+
+

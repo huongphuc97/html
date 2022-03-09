@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:smaller;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top{
+    background-color:#131313;
+    
+   
+}
+.top .item ul li{
+    display: inline-block;
+    font-size: 10px;
+}
+.top .item ul li a{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding:10px;
+   
+}
+.top .item i.ic{
+    padding-right: 5px;
+}
+.top-banner{
+    overflow: hidden;
+    background-color: #014073;
+}
+.top-banner .logo{
+    width:15% ;
+    float: left;
+    background-image:url(../Images/logo1.png);
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+    background-color: #014073;
+    cursor: pointer;
+}
+.top-banner .nav-bar{
+    width:65%;
+    float: left;
+    height:80px;
+    background-color: #014073;
+    position: relative;
+}
+.top-banner .nav-bar ul li{
+    display: inline-block;
+    
+}
+.top-banner .nav-bar ul li a{
+    display: inline-block;
+    padding:30px 25px;
+    color:#fff;
+    text-decoration: none;
+}
+.top-banner .nav-bar ul li i.ic{
+    padding-left: 4px;
+}
+.top-banner .detail{
+    width:20% ;
+    float: left;
+    height: 80px;
+    position: relative;
+}
+.top-banner .detail::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 100px solid #ff9d33;
+    border-left: 100px solid transparent;
+    display: inline-block;
+    margin-left: -100px;
+    width: 1200px;
+    z-index: 0;
+}
+.top-banner .detail img{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    transform: translate(-50%,-50%);
+    padding:20px 0;
+}
+.top-banner .detail .item{
+    z-index: 1;
+    padding:15px 0;
+    position: absolute;
+}
+.error{
+    padding:30px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.error .item{
+    text-align: center;
+}
+.error .item h1{
+    font-size: 450px;
+    color: #dddddd;
+}
+.error .item h3{
+    color:#ff9d33;
+    padding-bottom: 30px;
+}
+.error .item .btn{
+    padding:10px 30px;
+    background-color: #014073;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+}
+.footer-background{
+    background-color:#014073;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+.footer-background .logo-item{
+    width: 30%;
+    float: left;
+}
+.footer-background .link-item{
+    width: 40%;
+    float: left;
+}
+.footer-background .recent-item{
+    width:30% ;
+    float: left;
+} 
+.footer-background .input .form-control{
+    padding:20px 20px;
+    background-color: #014073;
+    border: 1px solid #fff;
+    width: 75%;
+    outline:none;
+    color:#fff;
+}
+.footer-background .input i{
+    font-size: 40px;
+    padding: 8px 9px;
+    border: 1px solid lightgrey;
+    color:#fff;
+    background-color:#ff9d33;
+    position: absolute;
+    cursor: pointer;
+}
+.footer-background .link-item .link1{
+    width: 50%;
+    float: left;
+}
+.footer-background .link-item .link1 ul li{
+    display: block;
+}
+.footer-background .link-item .link1 ul li a{
+   display: block;
+    text-decoration: none;
+    color:#fff;
+    padding:15px;
+    font-size: 14px;
+}
+
+.footer-background .recent-item .bottom-item{
+    width: 100%;
+    padding-bottom: 25px;
+    float: left;
+}
+.footer-background .recent-item .bottom-item .img{
+    width: 40%;
+    float: left;
+    background-color:#dddddd;
+    height:100px;
+}
+.footer-background .recent-item .bottom-item .title{
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    color:#fff;
+}
+.footer-background .recent-item .bottom-item .title .date{
+    padding-top: 35px;
+    color:#ff9d33;
+}
+.footer-banner{
+    background-color:#013864;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.footer-banner .content{
+    float: left;
+    width: 85%;
+    padding:30px 0;
+}
+.footer-banner .icon{
+    float: left;
+    width: 15%;
+    padding:25px 0 0 25px;
+}
+.footer-banner .icon .img{
+    float: left;
+    width: 5%;
+    padding:0 25px 50px 25px;
+}
+.footer-banner .icon .img-1{
+    background-image: url(../Images/footer-icon1.png);
+    background-repeat: no-repeat;
+}
+.footer-banner .icon .img-2{
+    background-image: url(../Images/footer-icon2.png);
+    background-repeat: no-repeat;
+}
+.footer-banner .icon .img-3{
+    background-image: url(../Images/footer-icon3.png);
+    background-repeat: no-repeat;
+}
